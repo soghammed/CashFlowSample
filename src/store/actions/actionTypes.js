@@ -1,0 +1,25 @@
+export const TRY_AUTH = "TRY_AUTH";
+export const AUTH_SET_TOKEN = "AUTH_SET_TOKEN";
+export const AUTH_REMOVE_TOKEN = "AUTH_REMOVE_TOKEN";
+
+//global settings 
+export const SET_THEME_COLOR = "SET_THEME_COLOR";
+export const SET_THEME_MODE = "SET_THEME_MODE";
+
+export const SET_ITEMS = "SET_ITEMS";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const SET_CURRENT_BALANCE = "SET_CURRENT_BALANCE"
+
+//merged into one distinguished by type=inbound|outbound
+// export const ADD_INBOUND_ITEM = "ADD_INBOUND_ITEM";
+// export const REMOVE_INBOUND_ITEM = "REMOVE_INBOUND_ITEM";
+// export const SET_INBOUND_CURRENT_BALANCE = "SET_INBOUND_CURRENT_BALANCE";
+
+// export const ADD_OUTBOUND_ITEM = "ADD_OUTBOUND_ITEM";
+// export const REMOVE_OUTBOUND_ITEM = "REMOVE_OUTBOUND_ITEM";
+// export const SET_OUTBOUND_CURRENT_BALANCE = "SET_OUTBOUND_CURRENT_BALANCE";
+
+export const UI_START_LOADING = "UI_START_LOADING";
+export const UI_STOP_LOADING = "UI_STOP_LOADING";
+
+// export const GET_INBOUNT_CURRENT_BALANCE = "GET_INBOUNT_CURRENT_BALANCE";  
